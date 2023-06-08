@@ -36,6 +36,10 @@ namespace kevans.asteroids
 					break;
 				}
 
+				if(playerShip.isDead) {
+					continue;
+				}
+
 				if(asteroidBehaviour.Collides(playerShip.collider2D)) {
 					playerShip.Die();
 					asteroidBehaviour.Split();
