@@ -1,3 +1,6 @@
-
-Library/ArtifactDB
-Library/AnnotationManager
+Library/*
+Logs/*
+Temp/*
+UserSettings/*
+.vsconfig
+.vscode/settings.json
